@@ -3,7 +3,7 @@
 
 Conpay.ru credit module for 1c-Bitrix v.12.0
 
-Установка модуля оплаты Conpay.ru на CMS Bitrix 12:
+## Установка модуля оплаты Conpay.ru на CMS Bitrix 12: ##
 1. Разархивируйте основной модуль и скопируйте его в папку "/bitrix/modules/conpay".
 2. Разархивируйте платежный модуль и скопируйте его в папку "/bitrix/modules/sale/payment/conpay".
 2. Установите основной модуль из списка модулей (Найстройки -> Модули -> Сервис CONPAY.RU -> Установить).
