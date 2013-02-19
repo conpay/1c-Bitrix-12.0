@@ -201,7 +201,7 @@ class ConpayProxyModel
 
 		$parts = array(
 			$this->apiKey,
-			is_numeric($data['delivery']) ? $totalsum + $data['delivery'] : $totalsum,
+			isset($data['delivery']) && is_numeric($data['delivery']) ? $totalsum + $data['delivery'] : $totalsum,
 			$this->merchantId
 		);
 
