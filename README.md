@@ -8,10 +8,12 @@
 2. Установите основной модуль из списка модулей (Найстройки -> Модули -> Сервис CONPAY.RU -> Установить).
 4. Внесите настройки модуля. Незаполненные поля примут значения по умолчанию.
 5. Подключите модуль в шаблонах сайта:
+
 * в шаблоне страницы товара "/bitrix/templates/[шаблон сайта]/components/bitrix/catalog/[.default]/bitrix/catalog.element/[.default]/template.php" добавить строку в блоке
 
 ```php
 <?if($arResult["CAN_BUY"]):?>:
+...
 <?php if (CModule::IncludeModule('conpay')) CConpay::GetContent($arResult); ?>
 ```
 
@@ -19,5 +21,6 @@
 
 ```php
 <?foreach($arResult["ITEMS"] as $cell=>$arElement):?>:
+...
 <?php if (CModule::IncludeModule('conpay')) CConpay::GetContent($arElement); ?>
 ```
