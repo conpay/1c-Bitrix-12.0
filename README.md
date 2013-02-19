@@ -3,14 +3,14 @@
 
 Conpay.ru credit module for 1c-Bitrix v.12.0
 
-Установка модуля оплаты Conpay.ru на CMS Bitrix 12:
-1. Разархивируйте основной модуль и скопируйте его в папку "/bitrix/modules/conpay".
-2. Разархивируйте платежный модуль и скопируйте его в папку "/bitrix/modules/sale/payment/conpay".
-2. Установите основной модуль из списка модулей (Найстройки -> Модули -> Сервис CONPAY.RU -> Установить).
-4. Внесите настройки модуля. Незаполненные поля примут значения по умолчанию.
-5. Подключите модуль в шаблонах сайта:
-- в шаблоне страницы товара "/bitrix/templates/[шаблон сайта]/components/bitrix/catalog/[.default]/bitrix/catalog.element/[.default]/template.php" добавить строку в блоке <?if($arResult["CAN_BUY"]):?>:
+РЈСЃС‚Р°РЅРѕРІРєР° РјРѕРґСѓР»СЏ РѕРїР»Р°С‚С‹ Conpay.ru РЅР° CMS Bitrix 12:
+1. Р Р°Р·Р°СЂС…РёРІРёСЂСѓР№С‚Рµ РѕСЃРЅРѕРІРЅРѕР№ РјРѕРґСѓР»СЊ Рё СЃРєРѕРїРёСЂСѓР№С‚Рµ РµРіРѕ РІ РїР°РїРєСѓ "/bitrix/modules/conpay".
+2. Р Р°Р·Р°СЂС…РёРІРёСЂСѓР№С‚Рµ РїР»Р°С‚РµР¶РЅС‹Р№ РјРѕРґСѓР»СЊ Рё СЃРєРѕРїРёСЂСѓР№С‚Рµ РµРіРѕ РІ РїР°РїРєСѓ "/bitrix/modules/sale/payment/conpay".
+2. РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕСЃРЅРѕРІРЅРѕР№ РјРѕРґСѓР»СЊ РёР· СЃРїРёСЃРєР° РјРѕРґСѓР»РµР№ (РќР°Р№СЃС‚СЂРѕР№РєРё -> РњРѕРґСѓР»Рё -> РЎРµСЂРІРёСЃ CONPAY.RU -> РЈСЃС‚Р°РЅРѕРІРёС‚СЊ).
+4. Р’РЅРµСЃРёС‚Рµ РЅР°СЃС‚СЂРѕР№РєРё РјРѕРґСѓР»СЏ. РќРµР·Р°РїРѕР»РЅРµРЅРЅС‹Рµ РїРѕР»СЏ РїСЂРёРјСѓС‚ Р·РЅР°С‡РµРЅРёСЏ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ.
+5. РџРѕРґРєР»СЋС‡РёС‚Рµ РјРѕРґСѓР»СЊ РІ С€Р°Р±Р»РѕРЅР°С… СЃР°Р№С‚Р°:
+- РІ С€Р°Р±Р»РѕРЅРµ СЃС‚СЂР°РЅРёС†С‹ С‚РѕРІР°СЂР° "/bitrix/templates/[С€Р°Р±Р»РѕРЅ СЃР°Р№С‚Р°]/components/bitrix/catalog/[.default]/bitrix/catalog.element/[.default]/template.php" РґРѕР±Р°РІРёС‚СЊ СЃС‚СЂРѕРєСѓ РІ Р±Р»РѕРєРµ <?if($arResult["CAN_BUY"]):?>:
 <?php if (CModule::IncludeModule('conpay')) CConpay::GetContent($arResult); ?>
 {if $module == 'ProductView' || $module == 'ProductsView'}{include file='../../../payment/Conpay/conpay.tpl'}{/if}
-- в шаблоне страницы каталога "/bitrix/templates/[шаблон сайта]/components/bitrix/catalog/[.default]/bitrix/catalog.section/[.default]/template.php" добавить строку в блоке <?foreach($arResult["ITEMS"] as $cell=>$arElement):?>:
+- РІ С€Р°Р±Р»РѕРЅРµ СЃС‚СЂР°РЅРёС†С‹ РєР°С‚Р°Р»РѕРіР° "/bitrix/templates/[С€Р°Р±Р»РѕРЅ СЃР°Р№С‚Р°]/components/bitrix/catalog/[.default]/bitrix/catalog.section/[.default]/template.php" РґРѕР±Р°РІРёС‚СЊ СЃС‚СЂРѕРєСѓ РІ Р±Р»РѕРєРµ <?foreach($arResult["ITEMS"] as $cell=>$arElement):?>:
 <?php if (CModule::IncludeModule('conpay')) CConpay::GetContent($arElement); ?>
