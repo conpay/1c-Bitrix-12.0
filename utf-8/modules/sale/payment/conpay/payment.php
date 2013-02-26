@@ -9,7 +9,7 @@ $order_id 		= (strlen(CSalePaySystemAction::GetParamValue("ORDER_ID")) 		> 0) ? 
 $should_pay 	= (strlen(CSalePaySystemAction::GetParamValue("SHOULD_PAY")) 	> 0) ? CSalePaySystemAction::GetParamValue("SHOULD_PAY") 	: $GLOBALS["SALE_INPUT_PARAMS"]["ORDER"]["SHOULD_PAY"];
 $currency 		= (strlen(CSalePaySystemAction::GetParamValue("CURRENCY")) 		> 0) ? CSalePaySystemAction::GetParamValue("CURRENCY") 		: $GLOBALS["SALE_INPUT_PARAMS"]["ORDER"]["CURRENCY"];
 
-// Âûáèğàåì çàêàçàííûå òîâàğû èç áàçû äàííûõ
+// Ğ’Ñ‹Ğ±Ğ¸Ñ€Ğ°ĞµĞ¼ Ğ·Ğ°ĞºĞ°Ğ·Ğ°Ğ½Ğ½Ñ‹Ğµ Ñ‚Ğ¾Ğ²Ğ°Ñ€Ñ‹ Ğ¸Ğ· Ğ±Ğ°Ğ·Ñ‹ Ğ´Ğ°Ğ½Ğ½Ñ‹Ñ…
 
 global $DB;
 
@@ -41,7 +41,7 @@ WHERE b.order_id = $order_id;
 
 $res = $DB->Query($sql, true);
 
-// Çàïîëíÿåì ìàññèâ òîâàğîâ è ïåğåäàåì åãî â ìîäóëü
+// Ğ—Ğ°Ğ¿Ğ¾Ğ»Ğ½ÑĞµĞ¼ Ğ¼Ğ°ÑÑĞ¸Ğ² Ñ‚Ğ¾Ğ²Ğ°Ñ€Ğ¾Ğ² Ğ¸ Ğ¿ĞµÑ€ĞµĞ´Ğ°ĞµĞ¼ ĞµĞ³Ğ¾ Ğ² Ğ¼Ğ¾Ğ´ÑƒĞ»ÑŒ
 
 $products = array('ITEMS' => array());
 
@@ -50,7 +50,7 @@ while($item = $res->Fetch()) {
 		
 		$url = '';
 		
-		// Îïğåäåëÿåì URL ñòğàíèöû òîâàğà
+		// ĞĞ¿Ñ€ĞµĞ´ĞµĞ»ÑĞµĞ¼ URL ÑÑ‚Ñ€Ğ°Ğ½Ğ¸Ñ†Ñ‹ Ñ‚Ğ¾Ğ²Ğ°Ñ€Ğ°
 		
 		$url_masks = array
 		(
@@ -74,7 +74,7 @@ while($item = $res->Fetch()) {
 			$url = ($item['iblock_type_id'] == 'catalog'? '/catalog/' : '/') . $item['navchain'] . '/' . ($item['code']? $item['code'] : $item['id']) . '.html';
 		}
 		
-		// Äîáàâëÿåì ñâîéñòâà òîâàğà ê ìàññèâó
+		// Ğ”Ğ¾Ğ±Ğ°Ğ²Ğ»ÑĞµĞ¼ ÑĞ²Ğ¾Ğ¹ÑÑ‚Ğ²Ğ° Ñ‚Ğ¾Ğ²Ğ°Ñ€Ğ° Ğº Ğ¼Ğ°ÑÑĞ¸Ğ²Ñƒ
 		
 		$products['ITEMS'][] = array(
 			'ID' 								=> $item['id'],
