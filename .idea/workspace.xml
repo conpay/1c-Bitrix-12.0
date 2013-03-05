@@ -23,7 +23,7 @@
       <file leaf-file-name="conpay.addorder.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utf-8/modules/conpay/conpay.addorder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="26" selection-start="2606" selection-end="2606" vertical-scroll-proportion="0.19526628">
+            <state line="108" column="60" selection-start="2731" selection-end="2731" vertical-scroll-proportion="0.73846155">
               <folding />
             </state>
           </provider>
@@ -241,7 +241,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -321,14 +321,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/utf-8/modules/conpay/general/conpay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="71" selection-start="271" selection-end="271" vertical-scroll-proportion="-0.76449704">
+        <state line="13" column="71" selection-start="271" selection-end="271" vertical-scroll-proportion="0.020118343">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utf-8/modules/conpay/conpay.addorder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="26" selection-start="2606" selection-end="2606" vertical-scroll-proportion="0.19526628">
+        <state line="108" column="60" selection-start="2731" selection-end="2731" vertical-scroll-proportion="0.73846155">
           <folding />
         </state>
       </provider>
