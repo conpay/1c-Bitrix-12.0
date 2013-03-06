@@ -9,18 +9,20 @@
 4. Внесите настройки модуля. Незаполненные поля примут значения по умолчанию.
 5. Подключите модуль в шаблонах сайта:
 
-* в шаблоне страницы товара `/bitrix/templates/[шаблон сайта]/components/bitrix/catalog/[.default]/bitrix/catalog.element/[.default]/template.php` добавить строку в блоке
-
+* в шаблоне страницы товара `/bitrix/templates/[шаблон сайта]/components/bitrix/catalog/[.default]/bitrix/catalog.element/[.default]/template.php` добавить в блоке
 ```php
 <?if($arResult["CAN_BUY"]):?>
-...
+```
+следующую строку
+```php
 <?php if (CModule::IncludeModule('conpay')) CConpay::GetContent($arResult); ?>
 ```
 
-* в шаблоне страницы каталога `/bitrix/templates/[шаблон сайта]/components/bitrix/catalog/[.default]/bitrix/catalog.section/[.default]/template.php` добавить строку в блоке
-
+* в шаблоне страницы каталога `/bitrix/templates/[шаблон сайта]/components/bitrix/catalog/[.default]/bitrix/catalog.section/[.default]/template.php` добавить в блоке
 ```php
 <?foreach($arResult["ITEMS"] as $cell=>$arElement):?>
-...
+```
+следующую строку
+```php
 <?php if (CModule::IncludeModule('conpay')) CConpay::GetContent($arElement); ?>
 ```
