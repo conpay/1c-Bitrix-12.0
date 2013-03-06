@@ -4,6 +4,7 @@
     <list default="true" id="29119f41-785d-4c28-92e3-03532b505d07" name="Default" comment="" />
     <ignored path="1c-Bitrix-12.0.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +21,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="conpay.addorder.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="conpay.addorder.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utf-8/modules/conpay/conpay.addorder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="60" selection-start="2731" selection-end="2731" vertical-scroll-proportion="0.73846155">
+            <state line="79" column="48" selection-start="2045" selection-end="2045" vertical-scroll-proportion="-5.0384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="40" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.4879449">
               <folding />
             </state>
           </provider>
@@ -48,6 +58,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/utf-8/modules/conpay/conpay.addorder.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -176,7 +187,8 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -237,11 +249,15 @@
       <created>1362473465608</created>
       <updated>1362473465608</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Regular changes">
+      <created>1362557691748</created>
+      <updated>1362557691748</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -328,7 +344,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utf-8/modules/conpay/conpay.addorder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="60" selection-start="2731" selection-end="2731" vertical-scroll-proportion="0.73846155">
+        <state line="79" column="48" selection-start="2045" selection-end="2045" vertical-scroll-proportion="-5.0384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="40" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.4879449">
           <folding />
         </state>
       </provider>
