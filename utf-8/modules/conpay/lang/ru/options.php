@@ -1,5 +1,4 @@
 <?php
-
 $MESS['CONPAY_BASIC_SETTINGS'] = "Основные настройки";
 $MESS['CONPAY_BASIC_SETTINGS_TITLE'] = "Основные настройки модуля";
 $MESS['CONPAY_ADVANCED_SETTINGS'] = "Дополнительные настройки";
@@ -12,5 +11,3 @@ $MESS['MIN_PRICE'] = "Минимальная сумма кредита";
 $MESS["BUTTON_CLASS_NAME"] = "Класс кнопки";
 $MESS["BUTTON_TAG_NAME"] = "Тег кнопки";
 $MESS["BUTTON_TEXT"] = "Содержание кнопки";
-
-?>

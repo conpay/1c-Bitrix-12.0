@@ -1,5 +1,4 @@
 <?php
-
 IncludeModuleLangFile(__FILE__);
 global $APPLICATION;
 
@@ -9,11 +8,4 @@ if (!CModule::IncludeModule("catalog"))
 	return false;
 }
 
-CModule::AddAutoloadClasses(
-	'conpay',
-	array(
-		"CConpay" => "general/conpay.php",
-	)
-);
-
-?>
+CModule::AddAutoloadClasses('conpay', array("CConpay" => "general/conpay.php",));

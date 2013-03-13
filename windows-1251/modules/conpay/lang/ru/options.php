@@ -1,16 +1,13 @@
 <?php
-
-$MESS['CONPAY_BASIC_SETTINGS'] = "РћСЃРЅРѕРІРЅС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё";
-$MESS['CONPAY_BASIC_SETTINGS_TITLE'] = "РћСЃРЅРѕРІРЅС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё РјРѕРґСѓР»СЏ";
-$MESS['CONPAY_ADVANCED_SETTINGS'] = "Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё";
-$MESS['CONPAY_ADVANCED_SETTINGS_TITLE'] = "Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё РјРѕРґСѓР»СЏ";
-$MESS["MERCHANT_ID"] = "РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РїСЂРѕРґР°РІС†Р°";
-$MESS["API_KEY"] = "API-РєР»СЋС‡";
-$MESS['RESPONSE_PASS'] = "РљР»СЋС‡ РѕС‚РІРµС‚Р°";
-$MESS["BUTTON_CONTAINER_ID"] = "РђС‚СЂРёР±СѓС‚ ID РєРѕРЅС‚РµР№РЅРµСЂР°";
-$MESS['MIN_PRICE'] = "РњРёРЅРёРјР°Р»СЊРЅР°СЏ СЃСѓРјРјР° РєСЂРµРґРёС‚Р°";
-$MESS["BUTTON_CLASS_NAME"] = "РљР»Р°СЃСЃ РєРЅРѕРїРєРё";
-$MESS["BUTTON_TAG_NAME"] = "РўРµРі РєРЅРѕРїРєРё";
-$MESS["BUTTON_TEXT"] = "РЎРѕРґРµСЂР¶Р°РЅРёРµ РєРЅРѕРїРєРё";
-
-?>
+$MESS['CONPAY_BASIC_SETTINGS'] = "Основные настройки";
+$MESS['CONPAY_BASIC_SETTINGS_TITLE'] = "Основные настройки модуля";
+$MESS['CONPAY_ADVANCED_SETTINGS'] = "Дополнительные настройки";
+$MESS['CONPAY_ADVANCED_SETTINGS_TITLE'] = "Дополнительные настройки модуля";
+$MESS["MERCHANT_ID"] = "Идентификатор продавца";
+$MESS["API_KEY"] = "API-ключ";
+$MESS['RESPONSE_PASS'] = "Ключ ответа";
+$MESS["BUTTON_CONTAINER_ID"] = "Атрибут ID контейнера";
+$MESS['MIN_PRICE'] = "Минимальная сумма кредита";
+$MESS["BUTTON_CLASS_NAME"] = "Класс кнопки";
+$MESS["BUTTON_TAG_NAME"] = "Тег кнопки";
+$MESS["BUTTON_TEXT"] = "Содержание кнопки";

@@ -5,4 +5,3 @@ $MESS["CONPAY_PAYMENT_SYSTEM_NAME"] = "Купить в кредит, CONPAY.RU";
 $MESS["CONPAY_PAYMENT_SYSTEM_DESCRIPTION"] = 'Платежный модуль CONPAY.RU';
 $MESS['SALE_CONPAY_BUTTON_TEXT'] = 'Содержание кнопки';
 $MESS['SALE_CONPAY_BUTTON_TEXT_DESC'] = 'HTML-код внутри контейнера кнопки';
-?>
