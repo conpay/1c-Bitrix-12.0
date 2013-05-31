@@ -30,11 +30,8 @@ if ($REQUEST_METHOD == "POST" && strlen($Update.$Apply.$RestoreDefaults) > 0 && 
 			'MERCHANT_ID' => $_REQUEST['merchant_id'],
 			'API_KEY' => $_REQUEST['api_key'],
 			'RESPONSE_PASS' => $_REQUEST['response_pass'],
-<<<<<<< HEAD
 			'BUTTON_CONTAINER_ID' => $_REQUEST['button_container_id'],
-=======
 			'PRICE_TYPES' => $_REQUEST['price_types'],
->>>>>>> Regular changes
 			'MIN_PRICE' => $_REQUEST['min_price'],
 			'BUTTON_CLASS_NAME' => $_REQUEST['button_class_name'],
 			'BUTTON_TAG_NAME' => $_REQUEST['button_tag_name'],
