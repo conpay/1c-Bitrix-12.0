@@ -30,7 +30,11 @@ if ($REQUEST_METHOD == "POST" && strlen($Update.$Apply.$RestoreDefaults) > 0 && 
 			'MERCHANT_ID' => $_REQUEST['merchant_id'],
 			'API_KEY' => $_REQUEST['api_key'],
 			'RESPONSE_PASS' => $_REQUEST['response_pass'],
+<<<<<<< HEAD
 			'BUTTON_CONTAINER_ID' => $_REQUEST['button_container_id'],
+=======
+			'PRICE_TYPES' => $_REQUEST['price_types'],
+>>>>>>> Regular changes
 			'MIN_PRICE' => $_REQUEST['min_price'],
 			'BUTTON_CLASS_NAME' => $_REQUEST['button_class_name'],
 			'BUTTON_TAG_NAME' => $_REQUEST['button_tag_name'],
@@ -93,10 +97,10 @@ $tabControl->Begin();
 
 	<tr>
 		<td>
-			<label><?php echo GetMessage('BUTTON_CONTAINER_ID'); ?></label>
+			<label><?php echo GetMessage('PRICE_TYPES'); ?></label>
 		</td>
 		<td>
-			<input name="button_container_id" type="text" value="<?php echo COption::GetOptionString('conpay', 'BUTTON_CONTAINER_ID'); ?>" id="conpay_button_container_id" size="60" />
+			<input name="price_types" type="text" value="<?php echo COption::GetOptionString('conpay', 'PRICE_TYPES'); ?>" id="conpay_price_types" size="60" />
 		</td>
 	</tr>
 
